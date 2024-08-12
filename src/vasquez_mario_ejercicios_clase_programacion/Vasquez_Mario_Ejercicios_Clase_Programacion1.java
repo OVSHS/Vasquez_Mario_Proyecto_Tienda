@@ -20,8 +20,8 @@ public class Vasquez_Mario_Ejercicios_Clase_Programacion1 {
        int menu=0;
      while(menu!=4){
         System.out.println("Menu ");
-            System.out.println("1 El ingreso de una palabra e imprimir de manera diagonal.");
-            System.out.println("2 Piramide de numero.");
+            System.out.println("1 El ingreso de una palabra e imprimir de manera diagonal");
+            System.out.println("2 Piramide de numero");
             System.out.println("3 Listado de Palindromo y No");
             System.out.println("4 Salir ");
             System.out.println("\nElija una de las siguientes opciones: ");
@@ -68,7 +68,6 @@ public class Vasquez_Mario_Ejercicios_Clase_Programacion1 {
                         contador = fila + fila - 2;
                         
                         do {
-                            
                             if (contador == 0) {      
                                 contador--;
                                 } else {
